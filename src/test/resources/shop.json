@@ -1,0 +1,17 @@
+{
+	"shopInfo": {
+		"shopNumber": 8,
+		"shopName": "Магазин 8"
+	},
+	"cashType": "pos",
+	"cashes": [
+		{
+			"cashName": "pos 14",
+			"cashNumber": 14
+		},
+		{
+			"cashName": "касса 15",
+			"cashNumber": 15
+		}
+	]
+}
