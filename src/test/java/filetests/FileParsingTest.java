@@ -45,7 +45,7 @@ public class FileParsingTest  {
                     .getStringCellValue();
 
             Assertions.assertThat(xls.excel.getSheetAt(0).getLastRowNum()).isEqualTo(41);
-            Assertions.assertThat(reportTitle).contains("Отчет \"События по объектам\"");
+            Assertions.assertThat(reportTitle).contains("РћС‚С‡РµС‚ \"РЎРѕР±С‹С‚РёСЏ РїРѕ РѕР±СЉРµРєС‚Р°Рј\"");
         }
     }
 

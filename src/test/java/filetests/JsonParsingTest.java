@@ -21,7 +21,7 @@ public class JsonParsingTest {
 
         Assertions.assertThat(rootNode.get("cashType").asText()).isEqualTo("pos");
         Assertions.assertThat(rootNode.get("shopInfo").get("shopNumber").asInt()).isEqualTo(8);
-        Assertions.assertThat(rootNode.get("cashes").get(1).get("cashName").asText()).isEqualTo("касса 15");
+        Assertions.assertThat(rootNode.get("cashes").get(1).get("cashName").asText()).isEqualTo("РєР°СЃСЃР° 15");
         Assertions.assertThat(rootNode.get("cashes").get(1).get("cashNumber").asInt()).isEqualTo(15);
     }
 
@@ -34,8 +34,8 @@ public class JsonParsingTest {
 
         Assertions.assertThat(shop.cashType).isEqualTo("pos");
         Assertions.assertThat(shop.shopInfo.shopNumber).isEqualTo(8);
-        Assertions.assertThat(shop.shopInfo.shopName).isEqualTo("Магазин 8");
-        Assertions.assertThat(shop.cashes.get(1).cashName).isEqualTo("касса 15");
+        Assertions.assertThat(shop.shopInfo.shopName).isEqualTo("РњР°РіР°Р·РёРЅ 8");
+        Assertions.assertThat(shop.cashes.get(1).cashName).isEqualTo("РєР°СЃСЃР° 15");
         Assertions.assertThat(shop.cashes.get(1).cashNumber).isEqualTo(15);
     }
 }
